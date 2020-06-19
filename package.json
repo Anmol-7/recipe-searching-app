@@ -16,8 +16,6 @@
     "url": "https://github.com/Anmol-7/recipe-searching-app/issues"
   },
   "homepage": "https://github.com/Anmol-7/recipe-searching-app#readme",
-  "devDependencies": {
-    "webpack-cli": "^3.3.12"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }
