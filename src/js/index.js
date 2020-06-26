@@ -10,7 +10,6 @@ import Likes from './models/Likes';
 
 //global state of the app
 const state={};
-window.state=state;
 
 const controlSearch = async ()=>{
     const query = searchView.getInput();
@@ -48,7 +47,7 @@ elements.searchResPages.addEventListener('click',e=>{
 });
 const controlRecipe = async()=>{
     const id= window.location.hash.replace('#','');
-    console.log(id);
+    
     if(id){
         recipeView.clearRecipe();
         renderLoader(elements.recipe);
@@ -151,4 +150,3 @@ else if(e.target.matches('.btn-increase, .btn-increase *')){
 }
 //console.log(state.recipe);
 });
-window.l = new List();
